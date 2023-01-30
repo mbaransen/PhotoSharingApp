@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A61DBB764B9ABB8D0AAD716 /* Pods_FotografPaylasmaUygulamasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310A9345676016332C3DA6D4 /* Pods_FotografPaylasmaUygulamasi.framework */; };
+		AC4BEEA1298270F20067A788 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BEEA0298270F20067A788 /* FeedViewController.swift */; };
+		AC4BEEA3298271620067A788 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BEEA2298271620067A788 /* UploadViewController.swift */; };
+		AC4BEEA5298271830067A788 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BEEA4298271830067A788 /* SettingsViewController.swift */; };
+		AC77D43629811240004AD541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC77D43529811240004AD541 /* GoogleService-Info.plist */; };
 		AC9D3325297FCF91003BC290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D3324297FCF91003BC290 /* AppDelegate.swift */; };
 		AC9D3327297FCF91003BC290 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D3326297FCF91003BC290 /* SceneDelegate.swift */; };
 		AC9D3329297FCF91003BC290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D3328297FCF91003BC290 /* ViewController.swift */; };
 		AC9D332C297FCF91003BC290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9D332A297FCF91003BC290 /* Main.storyboard */; };
 		AC9D332E297FCF92003BC290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9D332D297FCF92003BC290 /* Assets.xcassets */; };
 		AC9D3331297FCF92003BC290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9D332F297FCF92003BC290 /* LaunchScreen.storyboard */; };
+		ACA9703F29851FCC00490630 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9703E29851FCC00490630 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		310A9345676016332C3DA6D4 /* Pods_FotografPaylasmaUygulamasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FotografPaylasmaUygulamasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C1CCB38195B824A3429B88 /* Pods-FotografPaylasmaUygulamasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotografPaylasmaUygulamasi.release.xcconfig"; path = "Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi.release.xcconfig"; sourceTree = "<group>"; };
+		AC4BEEA0298270F20067A788 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		AC4BEEA2298271620067A788 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		AC4BEEA4298271830067A788 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AC77D43529811240004AD541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC9D3321297FCF91003BC290 /* FotografPaylasmaUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotografPaylasmaUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9D3324297FCF91003BC290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9D3326297FCF91003BC290 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		AC9D332D297FCF92003BC290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9D3330297FCF92003BC290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9D3332297FCF92003BC290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA9703E29851FCC00490630 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B864E10850B35E55829354F2 /* Pods-FotografPaylasmaUygulamasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotografPaylasmaUygulamasi.debug.xcconfig"; path = "Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A61DBB764B9ABB8D0AAD716 /* Pods_FotografPaylasmaUygulamasi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F918A0C0C89060F1D25A4FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B864E10850B35E55829354F2 /* Pods-FotografPaylasmaUygulamasi.debug.xcconfig */,
+				49C1CCB38195B824A3429B88 /* Pods-FotografPaylasmaUygulamasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60C2B6848133D6DBD9791883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				310A9345676016332C3DA6D4 /* Pods_FotografPaylasmaUygulamasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC9D3318297FCF91003BC290 = {
 			isa = PBXGroup;
 			children = (
 				AC9D3323297FCF91003BC290 /* FotografPaylasmaUygulamasi */,
 				AC9D3322297FCF91003BC290 /* Products */,
+				0F918A0C0C89060F1D25A4FB /* Pods */,
+				60C2B6848133D6DBD9791883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +93,15 @@
 				AC9D3324297FCF91003BC290 /* AppDelegate.swift */,
 				AC9D3326297FCF91003BC290 /* SceneDelegate.swift */,
 				AC9D3328297FCF91003BC290 /* ViewController.swift */,
+				AC4BEEA0298270F20067A788 /* FeedViewController.swift */,
+				AC4BEEA2298271620067A788 /* UploadViewController.swift */,
+				AC4BEEA4298271830067A788 /* SettingsViewController.swift */,
+				ACA9703E29851FCC00490630 /* FeedCell.swift */,
 				AC9D332A297FCF91003BC290 /* Main.storyboard */,
 				AC9D332D297FCF92003BC290 /* Assets.xcassets */,
 				AC9D332F297FCF92003BC290 /* LaunchScreen.storyboard */,
 				AC9D3332297FCF92003BC290 /* Info.plist */,
+				AC77D43529811240004AD541 /* GoogleService-Info.plist */,
 			);
 			path = FotografPaylasmaUygulamasi;
 			sourceTree = "<group>";
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9D3335297FCF92003BC290 /* Build configuration list for PBXNativeTarget "FotografPaylasmaUygulamasi" */;
 			buildPhases = (
+				EBFDF38AE3545FBA03E9F6A3 /* [CP] Check Pods Manifest.lock */,
 				AC9D331D297FCF91003BC290 /* Sources */,
 				AC9D331E297FCF91003BC290 /* Frameworks */,
 				AC9D331F297FCF91003BC290 /* Resources */,
+				546D32D44C9F070755917B7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9D3331297FCF92003BC290 /* LaunchScreen.storyboard in Resources */,
+				AC77D43629811240004AD541 /* GoogleService-Info.plist in Resources */,
 				AC9D332E297FCF92003BC290 /* Assets.xcassets in Resources */,
 				AC9D332C297FCF91003BC290 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +175,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		546D32D44C9F070755917B7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBFDF38AE3545FBA03E9F6A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FotografPaylasmaUygulamasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC9D331D297FCF91003BC290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA9703F29851FCC00490630 /* FeedCell.swift in Sources */,
 				AC9D3329297FCF91003BC290 /* ViewController.swift in Sources */,
+				AC4BEEA3298271620067A788 /* UploadViewController.swift in Sources */,
 				AC9D3325297FCF91003BC290 /* AppDelegate.swift in Sources */,
+				AC4BEEA1298270F20067A788 /* FeedViewController.swift in Sources */,
 				AC9D3327297FCF91003BC290 /* SceneDelegate.swift in Sources */,
+				AC4BEEA5298271830067A788 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		AC9D3336297FCF92003BC290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B864E10850B35E55829354F2 /* Pods-FotografPaylasmaUygulamasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		AC9D3337297FCF92003BC290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C1CCB38195B824A3429B88 /* Pods-FotografPaylasmaUygulamasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
